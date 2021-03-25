@@ -1,6 +1,6 @@
 {
     "name": "topthink/think",
-    "description": "the new thinkphp framework",
+    "description": "fantasy.tp5.0",
     "type": "project",
     "keywords": [
         "framework",
@@ -17,7 +17,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "5.0.*"
+        "topthink/framework": "5.0.*",
+        "l-addons/think-addons": "master-dev"
     },
     "autoload": {
         "psr-4": {
