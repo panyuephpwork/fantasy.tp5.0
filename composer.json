@@ -1,6 +1,7 @@
 {
     "name": "fantasy/tp5",
     "description": "fantasy.tp5.0",
+    "version": "1.0.0",
     "type": "project",
     "keywords": [
         "framework",
@@ -11,13 +12,15 @@
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
+            "name": "furushanyue",
+            "email": "1127151375@qq.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "5.0.*"
+        "topthink/framework": "5.0.*",
+        "phpoffice/phpspreadsheet": "1.17.1",
+        "phpmailer/phpmailer": "v6.3.0"
     },
     "autoload": {
         "psr-4": {
